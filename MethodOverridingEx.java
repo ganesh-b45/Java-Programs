@@ -27,9 +27,8 @@ class MethodOverridingEx {
 		Dog d1 = new Dog();
 		Animal a1 = new Animal();
 
-		
-		a1.eat();
 		d1.eat();
+		a1.eat();
 
 		//Animal animal = new Dog();
 		// eat() method of animal class is overridden by
