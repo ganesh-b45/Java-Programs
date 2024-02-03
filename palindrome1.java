@@ -1,6 +1,6 @@
 import java.util.*;
 
-class palindrome{
+class palindrome1{
     public boolean isPalindrome(int x) {
         String s = String.valueOf(x);
         int n = s.length(); 
@@ -13,7 +13,7 @@ class palindrome{
     }
 
     public static void main(String args[]) {
-        String_palindrome obj = new String_palindrome();
+        palindrome1 obj = new palindrome1();
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter the no");
