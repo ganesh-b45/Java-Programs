@@ -9,42 +9,40 @@ import java.util.*;
 }
  abstract int[] getResultantArray();
 }
+
 class intersection extends Array_intersection_and_union1
 {
-
-	
-        int res[]=new int[5];
+        int rte[]=new int[5];
+	@Override
 	int[] getResultantArray() {
 		for(int i=0;i<arr1.length;i++)
 		{
-			for(int j=0;i<arr2.length;j++)
+			for(int j=0;j<arr2.length;j++)
 			{
 				if(arr1[i]==arr2[j])
 				{
-					res[i]=arr1[i];
+					rte[i]=arr1[i];
 				}
 			}
 		}
-		return res;
+		return rte;
 	}
 	
 }
-class intersection1
+class Inter
 {
 	public static void main(String args[])
 	{
-		int a1[]= new int[] {1,2,3,4,5};
-		int a2[]= new int[] {3,4,5,6,7};
+		int a1[]= {1,2,3,4,5};
+		int a2[]= {3,4,5,6,7};
 		 intersection obj=new intersection();
 		obj.setarray(a1, a2);
-		int [] result=obj.getResultantArray();
+		int[] result=obj.getResultantArray();
 		for(int i=0;i<result.length;i++)
-{
-
-                 System.out.println(result[i]);
-
-
-}
+		{
+                       if(result[i]!=0)
+			System.out.println(result[i]);
+		}
 		
 	}
 }
