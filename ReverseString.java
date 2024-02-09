@@ -1,7 +1,7 @@
 public class ReverseString{
     public static void main(String[] args) {
         // Input string
-        String originalString = "Good Morning India";
+        String originalString = "Ganesh bel";
 
         // Convert the string to a character array
         char[] charArray = originalString.toCharArray();
