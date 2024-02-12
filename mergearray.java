@@ -28,7 +28,7 @@ public class mergearray
 	 public static void main(String args[])
 	 {
 	   int a[]={1,2,3};
-	   int a1[]={4,5,6};
+	   int a2[]={4,5,6};
 	   mergearray o=new mergearray(a,a1);
 	   int r[]=o.getmergearray();
 	   for(int i=0;i<r.length;i++)
