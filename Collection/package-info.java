@@ -1,1 +1,1 @@
-package Collection;
+package collection;
