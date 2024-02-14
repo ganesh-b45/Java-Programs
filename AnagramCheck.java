@@ -1,5 +1,5 @@
 import java.util.*;
-class AnagramCheck {
+class AnagramCheck1 {
     public static void main(String[] args) {
         String str1 = "listen";
         String str2 = "silent";

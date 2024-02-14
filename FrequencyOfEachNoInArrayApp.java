@@ -40,16 +40,6 @@ public class FrequencyOfEachNoInArrayApp{
 	public static void main(String x[]){
 
 		Scanner k=new Scanner(System.in);
-		/*	
-		System.out.println("Enter values in array: ");
-		
-		int arr[]=new int[11];
-		for(int i=0;i<arr.length;i++){
-
-			arr[i]=k.nextInt();
-		}
-		
-		*/
 
 		majorityElement mt=new majorityElement(new int[]{1,1,1,5,1,7,1,2,1,4});
 		
