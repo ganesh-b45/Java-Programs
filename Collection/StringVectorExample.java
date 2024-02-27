@@ -29,5 +29,5 @@ public class StringVectorExample {
             int characterCount = element.length();
             System.out.println(i + "\t -------------------- > " + characterCount);
         }
-    }
+    }a
 }
