@@ -1,0 +1,21 @@
+class Employee
+{
+
+}
+class Manager
+{
+}
+class Testobject
+if(emp instanceof Employee)
+System.out.println("Rs.25000");
+if(emp instanceof Manager)
+
+System.out.println("Rs.50000");
+}
+public static void main(String args[])
+{
+employee e=new employee();
+manager m=new manager();
+checkobject(e);
+}
+}

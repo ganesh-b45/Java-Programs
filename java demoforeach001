@@ -1,0 +1,11 @@
+class demofor
+{
+public static void main(String args[])
+{
+int no[]={10,20,30,40,50};
+for(int x:no)
+{
+System.out.println(x);
+}
+}
+}
